@@ -82,7 +82,7 @@ dependencies {
     implementation 'com.github.nisrulz:easydeviceinfo-base:2.4.1'
     //implementation 'com.github.Stericson:RootTools:5.0'
     implementation 'com.google.firebase:firebase-core:16.0.3'
-    implementation 'org.jetbrains.anko:anko-commons:0.10.1'
+    implementation 'org.jetbrains.anko:anko:0.10.1'
     implementation 'eu.chainfire:libsuperuser:1.1.0'
     implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
