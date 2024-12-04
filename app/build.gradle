@@ -89,6 +89,7 @@ dependencies {
 }
 repositories {
     mavenCentral()
+    maven { url 'http://maven.xdja.com:8081/nexus3/service/rest/repository/browse/public/' }  // Custom Anko repository
 }
 
 apply plugin: 'kotlin-android-extensions'
