@@ -3,11 +3,13 @@ buildscript {
     ext.anko_version = '0.10.5'
 
     repositories {
-        google()
-        maven { url 'http://maven.xdja.com:8081/nexus3/repository/public/' }  // Custom Anko repository
-        jcenter()
-        maven { url 'https://maven.fabric.io/public' }
-    }
+    maven { url 'http://maven.xdja.com:8081/nexus3/repository/public/' }  // Custom Anko repository
+    google()  // Android dependencies
+    jcenter()  // Deprecated but still used
+    mavenCentral()  // Standard maven repository
+    maven { url 'https://repo.spring.io/plugins-release' }  // Spring plugins repository
+    maven { url 'https://maven.fabric.io/public' }  // Fabric repository
+}
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
