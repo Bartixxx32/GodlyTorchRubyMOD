@@ -4,7 +4,7 @@ buildscript {
 
     repositories {
         google()
-        maven { url 'http://maven.xdja.com:8081/nexus3/service/rest/repository/browse/public/' }  // Custom Anko repository
+        maven { url 'http://maven.xdja.com:8081/nexus3/repository/public/' }  // Custom Anko repository
         jcenter()
         maven { url 'https://maven.fabric.io/public' }
     }
